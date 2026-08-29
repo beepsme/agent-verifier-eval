@@ -65,8 +65,7 @@ trusted. That needs bait in both directions:
 Plus happy-path and impossible controls, across 7 real skill families:
 homework, teaching, tutoring, reading, translation, message sends, and
 writing. Browse all 44 tasks interactively in the
-[**task explorer**](docs/index.html) (enable GitHub Pages on `/docs` to
-serve it), or read them raw in [`tasks.jsonl`](tasks.jsonl).
+[**task explorer**](https://beepsme.github.io/agent-verifier-eval/), or read them raw in [`tasks.jsonl`](tasks.jsonl).
 
 > **Rule 0 (cardinal): ground truth comes from world state, never from
 > the agent.** Labels come from the recipient's inbox, the on-screen
