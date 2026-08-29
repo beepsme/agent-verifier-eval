@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this evaluation harness, please cite it."
+title: "agent-verifier-eval: a pre-registered verifier-reliability evaluation for LLM agents"
+authors:
+  - family-names: "Fatima"
+    given-names: "Syeda Alishba"
+year: 2026
+url: "https://beepsme.com"

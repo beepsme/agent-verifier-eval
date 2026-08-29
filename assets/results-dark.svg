@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="256" viewBox="0 0 760 256">
+<rect width="760" height="256" fill="none"/>
+<text x="10" y="24" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#E4EDF2">First measured run · 44 tasks · 31 clean trials · August 2026</text>
+<text x="10" y="67" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#8FA3AE">Agent's own success claim, false-positive rate</text>
+<rect x="330" y="54" width="360" height="16" rx="8" fill="#22313B"/>
+<rect x="330" y="54" width="360" height="16" rx="8" fill="#E06B5A"/>
+<text x="702" y="67" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#E4EDF2">1.00</text>
+<text x="10" y="121" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#8FA3AE">Proxy A self-confidence, AUC</text>
+<rect x="330" y="108" width="360" height="16" rx="8" fill="#22313B"/>
+<rect x="330" y="108" width="288" height="16" rx="8" fill="#2BC8DB"/>
+<text x="702" y="121" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#E4EDF2">0.80</text>
+<text x="10" y="175" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#8FA3AE">Success on achievable tasks, before</text>
+<rect x="330" y="162" width="360" height="16" rx="8" fill="#22313B"/>
+<rect x="330" y="162" width="266" height="16" rx="8" fill="#E8A94E"/>
+<text x="702" y="175" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#E4EDF2">74%</text>
+<text x="10" y="229" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="13" fill="#8FA3AE">Success on achievable tasks, after fixes</text>
+<rect x="330" y="216" width="360" height="16" rx="8" fill="#22313B"/>
+<rect x="330" y="216" width="331" height="16" rx="8" fill="#46C494"/>
+<text x="702" y="229" font-family="Consolas,Menlo,monospace" font-size="14" font-weight="600" fill="#E4EDF2">92%</text>
+</svg>
