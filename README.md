@@ -1,8 +1,19 @@
+> **Correction (31 October 2026). This repository is superseded.**
+> The headline result reported below, that the agent's success claim had a false-positive
+> rate of 1.00, came from a logging defect: the run log recorded every non-crashing turn as
+> a success and never read the gate's actual verdict. Re-deriving the verdicts from the raw
+> evidence, on the same 31 trials, the gate was right on 68% of trials (TP 12, FP 5, TN 9,
+> FN 5) and erred equally in both directions. The self-confidence result (ROC AUC 0.80)
+> stands as a post-hoc analysis. "Pre-registered" below should read "pre-specified" (a
+> dated private commit, not a public registry). The corrected study, data and code are at
+> https://github.com/AlishbaFatima12/beepsme-verification-gate-eval.
+> This repository is left readable so the original claim and its correction can be compared.
+
 # agent-verifier-eval
 
 **Does your agent know when it failed? Ours didn't. We measured it.**
 
-![license](https://img.shields.io/badge/license-MIT-2FA97C) ![tasks](https://img.shields.io/badge/tasks-44_pre--registered-00A9BE) ![claim FPR](https://img.shields.io/badge/claim_FPR-1.00-C9503F) ![proxy AUC](https://img.shields.io/badge/self--confidence_AUC-0.80-00A9BE) ![python](https://img.shields.io/badge/python-3.10%2B-4A5A66)
+![license](https://img.shields.io/badge/license-MIT-2FA97C) ![tasks](https://img.shields.io/badge/tasks-44_pre--registered-00A9BE) ![proxy AUC](https://img.shields.io/badge/self--confidence_AUC-0.80-00A9BE) ![python](https://img.shields.io/badge/python-3.10%2B-4A5A66)
 
 > *A note from the author: I build [Beepsme](https://beepsme.com), a
 > voice assistant that clicks, types, and sends real messages on real
